@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+       
+    <item android:title="Bluetooth Status"
+        android:showAsAction="always"
+        android:icon="@drawable/device_access_bluetooth"
+        android:id="@+id/BluetoothStatus"
+        style="@style/Theme.Sherlock">
+        
+    </item>
+    
+        <item
+        android:id="@+id/Menu"
+        android:title="@string/Menu"
+        android:icon="@drawable/ic_action_overflow"
+        android:showAsAction="always"
+        style="@style/Theme.Sherlock">
+        
+        <menu>
+            <item
+                android:id="@+id/Clear_History"
+                android:showAsAction="always"
+                android:title="Clear History"/>
+            <item
+                android:id="@+id/Preferences"
+                android:showAsAction="always"
+                android:title="Preferences"/>
+            <item
+                android:id="@+id/About"
+                android:showAsAction="always"
+                android:title="About"/>
+        </menu>
+        
+        </item>
+    
+    <item android:id="@+id/preferences"
+          android:title="Preferences"/>
+</menu>
